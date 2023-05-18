@@ -11,12 +11,13 @@ Prototype for extracting points from a graph - specifically for bar graphs.
 * `sampleImages` - folder containing sample images to test the script on.
 
 ### Requirements
-* Python 3.6
-* boto3
-* openCV-python
-* numpy
-* matplotlib
-* extcolors
+* Python 3+
+* Use `pip install` for the following
+   * boto3
+   * openCV-python
+   * numpy
+   * matplotlib
+   * extcolors
 
 ### Usage
 * `python3 lineGraphPtRecognition.py`
