@@ -8,7 +8,7 @@ Prototype for extracting points from a graph - specifically for line graphs.
 * `lineGraphPtRecognition.py` - script to extract text from AWS textract, specifically axis labels and other labels. This file is incomplete (see next steps)
 * `Blocks` - represents a class representation of labels and text within a graph element
 * `imageProcessing.ipynb` - script to extract points from a line graph. 
-* `sampleImages` - folder containing sample images to test the script on.
+* `sampleImages/` - folder containing sample images to test the script on.
 
 ### Requirements
 * Python 3+
