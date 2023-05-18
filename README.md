@@ -5,9 +5,9 @@ Prototype for extracting points from a graph - specifically for bar graphs.
 
 ### File List 
 * `README.md` - this file
-* `lineGraphPtRecognition.py` - script to extract text from textract, specifically axis and other labels. This file is incomplete (see next steps)
+* `lineGraphPtRecognition.py` - script to extract text from AWS textract, specifically axis labels and other labels. This file is incomplete (see next steps)
 * `Blocks` - represents a class representation of labels and text within a graph element
-* `imageProcessing.ipynb` - script to extract points from a bar graph. 
+* `imageProcessing.ipynb` - script to extract points from a line graph. 
 * `sampleImages` - folder containing sample images to test the script on.
 
 ### Requirements
@@ -27,5 +27,5 @@ Prototype for extracting points from a graph - specifically for bar graphs.
 
     * Extension - scale the points of the graph to a fit the scale of the graph.
 
-* Complete `lineGraphPtRecognition.py` to block out text in the original graph image to prevent confusion when processing the image when using computer vision. 
+* Complete `lineGraphPtRecognition.py` to block out text in the original graph image to prevent confusion when processing the image when using computer vision. Should choose the same color as background when whitting out text. 
 
