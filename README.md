@@ -1,7 +1,7 @@
-## Protoype Graph Point Extractor 
+## Protoype Line Graph Point Extractor 
 
 ### Description
-Prototype for extracting points from a graph - specifically for bar graphs. 
+Prototype for extracting points from a graph - specifically for line graphs. 
 
 ### File List 
 * `README.md` - this file
@@ -24,9 +24,9 @@ Prototype for extracting points from a graph - specifically for bar graphs.
 * `jupyter notebook imageProcessing.ipynb`
 
 ### Next Steps
-* Complete `lineGraphPtRecognition.py` to extract axis. The problem arises when not all the text's centroid are aligned for a given axis. Eg the y axis labels are not aligned uniformly. 
+* Complete `lineGraphPtRecognition.py` to extract axis text. The problem arises when not all the text's centroid are aligned for a given axis. Eg the y axis labels are not aligned uniformly. 
 
-    * Extension - scale the points of the graph to a fit the scale of the graph.
+    * Extension - scale the points of the CV (Computer Vision) extracted points to a fit the scale of the graph.
 
 * Complete `lineGraphPtRecognition.py` to block out text in the original graph image to prevent confusion when processing the image when using computer vision. Should choose the same color as background when whitting out text. 
 
